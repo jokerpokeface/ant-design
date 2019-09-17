@@ -32,7 +32,7 @@ title: Radio
 | defaultValue | 默认选中的值 | any | - |  |
 | disabled | 禁选所有子单选器 | boolean | false | 3.6.5 |
 | name | RadioGroup 下所有 `input[type="radio"]` 的 `name` 属性 | string | - |  |
-| options | 以配置形式设置子元素 | string\[] \| Array&lt;{ label: string value: string disabled?: boolean }> | - |  |
+| options | 以配置形式设置子元素 | string\[] \| Array&lt;{ label: string\|ReactNode value: string disabled?: boolean }> | - |  |
 | size | 大小，只对按钮样式生效 | `large` \| `default` \| `small` | `default` |  |
 | value | 用于设置当前选中的值 | any | - |  |
 | onChange | 选项变化时的回调函数 | Function(e:Event) | - |  |
